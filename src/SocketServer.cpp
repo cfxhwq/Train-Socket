@@ -20,7 +20,6 @@ using namespace std;
 
 int main(void) {
 	int listenfd, connectfd;
-	pthread_t tid;
 	struct sockaddr_in server;
 	struct sockaddr_in client;
 //	socklen_t addrlen;
